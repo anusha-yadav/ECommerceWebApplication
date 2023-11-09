@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model E_Commerce_WebApplication.Models.BuyNowViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="~/js/all.min.js"></script>
+    <!-- Include any additional CSS or JavaScript files here -->
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Product.ProductName</td>
+                <td>$@Model.Product.Price</td>
+                <td>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="Quantity" name="Quantity" value="1" min="1" data-product-id="@Model.ProductID" />
+                    </div>
+                </td>
+                <td>$<span id="Total">@Model.Product.Price</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form method="post" action="@Url.Action("BuyNowCheckout", "Checkout")">
+        @Html.HiddenFor(model => model.UserID)
+        @Html.HiddenFor(model => model.ProductID)
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Confirm Purchase</button>
+        </div>
+    </form>
+
+    <!-- Include any other content or scripts as needed -->
+
+</body>
+</html>
+
+@*
+<script>
+        // JavaScript to update the total price when quantity changes
+        $(document).ready(function () {
+            $('#Quantity').on('input', function () {
+                var quantity = parseInt($(this).val());
+                var price = parseFloat('@Model.Product.Price');
+                var total = quantity * price;
+                $('#Total').text(total.toFixed(2));
+                $('#FinalQuantity').val(quantity);
+            });
+        });
+
+    // JavaScript to update the total price and reflect quantity in the database
+    $(document).ready(function () {
+        $('#Quantity').on('input', function () {
+            var quantity = parseInt($(this).val());
+            var productId = $(this).data('product-id'); // Get the product ID
+            console.log(quantity)
+            console.log(productId)
+            // Make an AJAX request to update the quantity in the database
+            $.ajax({
+                type: 'POST',
+                url: '/Cart/UpdateQuantity', // Replace with the actual URL
+                data: { productId: productId, quantity: quantity },
+                success: function () {
+                    // Update the total price in the view
+                    var price = parseFloat('@Model.Product.Price');
+                    var total = quantity * price;
+                    $('#Total').text(total.toFixed(2));
+                },
+                error: function () {
+                    // Handle errors if necessary
+                }
+            });
+        });
+    });
+
+</script>  
+*@
+
+

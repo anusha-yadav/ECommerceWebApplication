@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+.block {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color:blue;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration:none;
+}
+
+.block:hover {
+      background-color: #ddd;
+      color: black;
+}
+
+.body{
+    align-items:center;
+    justify-content:center;
+}
+</style>
+<body>
+    <h2>Admin Dashboard</h2>
+
+    <div>
+        <a href="@Url.Action("Create", "Categories")">
+            <button class="block">Create Category</button>
+        </a>
+    </div>
+    <br />
+    <div>
+        <a href="@Url.Action("Create", "Subcategories")">
+            <button class="block">Create SubCategory</button>
+        </a>
+    </div>
+    <br />
+    <div>
+        <a href="@Url.Action("Create", "Products")">
+            <button class="block">Create Product</button>
+        </a>
+    </div>
+    <br />
+    <div>
+        <a href="@Url.Action("", "Products")">
+            <button class="block">Create Product</button>
+        </a>
+    </div>
+</body>
+</html>
+
+

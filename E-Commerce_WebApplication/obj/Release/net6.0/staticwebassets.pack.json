@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\E-Commerce_WebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\E-Commerce_WebApplication.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\BoatWave.png",
+      "PackagePath": "staticwebassets\\images\\BoatWave.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\TVUnits.png",
+      "PackagePath": "staticwebassets\\images\\TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\ThermalBottle.png",
+      "PackagePath": "staticwebassets\\images\\ThermalBottle.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\airpods.png",
+      "PackagePath": "staticwebassets\\images\\airpods.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\asuslaptop.png",
+      "PackagePath": "staticwebassets\\images\\asuslaptop.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\battery.png",
+      "PackagePath": "staticwebassets\\images\\battery.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\camera.png",
+      "PackagePath": "staticwebassets\\images\\camera.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\iphone13pro.png",
+      "PackagePath": "staticwebassets\\images\\iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\led.png",
+      "PackagePath": "staticwebassets\\images\\led.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\loginimage.png",
+      "PackagePath": "staticwebassets\\images\\loginimage.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\samsunga21s.png",
+      "PackagePath": "staticwebassets\\images\\samsunga21s.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\slider1.png",
+      "PackagePath": "staticwebassets\\images\\slider1.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\slider2.png",
+      "PackagePath": "staticwebassets\\images\\slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\slider3.png",
+      "PackagePath": "staticwebassets\\images\\slider3.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\smartdoorlock.png",
+      "PackagePath": "staticwebassets\\images\\smartdoorlock.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\images\\speaker.png",
+      "PackagePath": "staticwebassets\\images\\speaker.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\0635aaef-5da0-46fe-a6b3-46375f4cfd47_ThermalBottle.png",
+      "PackagePath": "staticwebassets\\uploads\\0635aaef-5da0-46fe-a6b3-46375f4cfd47_ThermalBottle.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\071b3292-e556-4733-b2bd-67429c73200a_ThermalBottle.png",
+      "PackagePath": "staticwebassets\\uploads\\071b3292-e556-4733-b2bd-67429c73200a_ThermalBottle.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\07580404-c89b-4dbd-8120-d7c012e8d3d2_iphone13pro.png",
+      "PackagePath": "staticwebassets\\uploads\\07580404-c89b-4dbd-8120-d7c012e8d3d2_iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\08d5b62e-384a-4085-9a1a-59e96769a85d_samsunga21s.png",
+      "PackagePath": "staticwebassets\\uploads\\08d5b62e-384a-4085-9a1a-59e96769a85d_samsunga21s.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\0a5a7e0b-59a7-4495-8312-734a9c6071ee_samsunga21s.png",
+      "PackagePath": "staticwebassets\\uploads\\0a5a7e0b-59a7-4495-8312-734a9c6071ee_samsunga21s.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\10223574-7d53-488f-aeaf-759c7a8ab186_asuslaptop.png",
+      "PackagePath": "staticwebassets\\uploads\\10223574-7d53-488f-aeaf-759c7a8ab186_asuslaptop.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\1a244dc1-2321-4fad-b885-28c51719908e_iphone13pro.png",
+      "PackagePath": "staticwebassets\\uploads\\1a244dc1-2321-4fad-b885-28c51719908e_iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\1c648801-9625-4644-95fd-591a43a2d1d1_iphone13pro.png",
+      "PackagePath": "staticwebassets\\uploads\\1c648801-9625-4644-95fd-591a43a2d1d1_iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\223a9b00-027f-40e0-8747-d7c9521744f6_BoatWave.png",
+      "PackagePath": "staticwebassets\\uploads\\223a9b00-027f-40e0-8747-d7c9521744f6_BoatWave.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\6349f8ce-05b4-4787-a2e1-0bb8bb58f9e8_airpods.png",
+      "PackagePath": "staticwebassets\\uploads\\6349f8ce-05b4-4787-a2e1-0bb8bb58f9e8_airpods.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\63a283e6-2825-4b5d-bd99-dc2a00ac6e9b_asuslaptop.png",
+      "PackagePath": "staticwebassets\\uploads\\63a283e6-2825-4b5d-bd99-dc2a00ac6e9b_asuslaptop.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\6de47271-2051-42dd-9afc-af8ce38fc1a5_BoatWave.png",
+      "PackagePath": "staticwebassets\\uploads\\6de47271-2051-42dd-9afc-af8ce38fc1a5_BoatWave.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\812999bd-d5f7-478f-9d6e-19f15df57344_iphone13pro.png",
+      "PackagePath": "staticwebassets\\uploads\\812999bd-d5f7-478f-9d6e-19f15df57344_iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\8e6ea394-f7ef-4851-9b45-853bd5805c1f_iphone13pro.png",
+      "PackagePath": "staticwebassets\\uploads\\8e6ea394-f7ef-4851-9b45-853bd5805c1f_iphone13pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\8ec37a62-9884-42ed-b64f-c6738ac44238_camera.png",
+      "PackagePath": "staticwebassets\\uploads\\8ec37a62-9884-42ed-b64f-c6738ac44238_camera.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\92b22031-8808-4098-95f5-bb1b2272e3a2_led.png",
+      "PackagePath": "staticwebassets\\uploads\\92b22031-8808-4098-95f5-bb1b2272e3a2_led.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\9f3b5217-c105-4e0e-9bd3-46af56430c60_TVUnits.png",
+      "PackagePath": "staticwebassets\\uploads\\9f3b5217-c105-4e0e-9bd3-46af56430c60_TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\a3418e04-8325-4cac-8e31-e3904dc27116_TVUnits.png",
+      "PackagePath": "staticwebassets\\uploads\\a3418e04-8325-4cac-8e31-e3904dc27116_TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\a8483096-0866-407e-b950-a6e7be458016_smartdoorlock.png",
+      "PackagePath": "staticwebassets\\uploads\\a8483096-0866-407e-b950-a6e7be458016_smartdoorlock.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\a8f3a930-6b93-4154-a271-3e0cd228fdd6_asuslaptop.png",
+      "PackagePath": "staticwebassets\\uploads\\a8f3a930-6b93-4154-a271-3e0cd228fdd6_asuslaptop.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\a92b7885-0861-4c0e-9948-3cea3cf9fe7c_TVUnits.png",
+      "PackagePath": "staticwebassets\\uploads\\a92b7885-0861-4c0e-9948-3cea3cf9fe7c_TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\ae15708c-1275-4bf6-84e9-05935e3bd20c_airpods.png",
+      "PackagePath": "staticwebassets\\uploads\\ae15708c-1275-4bf6-84e9-05935e3bd20c_airpods.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\b2e9a0ee-9ef8-46b5-b529-2497b0e825d2_TVUnits.png",
+      "PackagePath": "staticwebassets\\uploads\\b2e9a0ee-9ef8-46b5-b529-2497b0e825d2_TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\be40219a-c1d7-458b-b5cc-6356fb931707_samsunga21s.png",
+      "PackagePath": "staticwebassets\\uploads\\be40219a-c1d7-458b-b5cc-6356fb931707_samsunga21s.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\bf5b5253-a52f-49de-b041-ae232abfbeb4_smartdoorlock.png",
+      "PackagePath": "staticwebassets\\uploads\\bf5b5253-a52f-49de-b041-ae232abfbeb4_smartdoorlock.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\c06eeb04-2779-43a2-92c8-18f28c038534_battery.png",
+      "PackagePath": "staticwebassets\\uploads\\c06eeb04-2779-43a2-92c8-18f28c038534_battery.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\c191a4f0-c7e8-47df-9c33-db1f4b1c0ead_asuslaptop.png",
+      "PackagePath": "staticwebassets\\uploads\\c191a4f0-c7e8-47df-9c33-db1f4b1c0ead_asuslaptop.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\c9e4c39d-c2d3-4d78-bb4f-674ad0c27f98_TVUnits.png",
+      "PackagePath": "staticwebassets\\uploads\\c9e4c39d-c2d3-4d78-bb4f-674ad0c27f98_TVUnits.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\d5557878-3477-45b1-81d0-1c2ad702bba9_led.png",
+      "PackagePath": "staticwebassets\\uploads\\d5557878-3477-45b1-81d0-1c2ad702bba9_led.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\df3ca360-5245-4546-9d61-7c1130f21aa2_BoatWave.png",
+      "PackagePath": "staticwebassets\\uploads\\df3ca360-5245-4546-9d61-7c1130f21aa2_BoatWave.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\eac3bf88-d476-4687-b555-e3c0b1d2084a_airpods.png",
+      "PackagePath": "staticwebassets\\uploads\\eac3bf88-d476-4687-b555-e3c0b1d2084a_airpods.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f0b66409-2f94-4746-bd42-e1ea34dd6cfb_samsunga21s.png",
+      "PackagePath": "staticwebassets\\uploads\\f0b66409-2f94-4746-bd42-e1ea34dd6cfb_samsunga21s.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f2b5caf6-1d55-4b85-ade0-af0e7fc36daf_ThermalBottle.png",
+      "PackagePath": "staticwebassets\\uploads\\f2b5caf6-1d55-4b85-ade0-af0e7fc36daf_ThermalBottle.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f5c4cac9-3f27-496a-a0b8-78e1f00dcf25_led.png",
+      "PackagePath": "staticwebassets\\uploads\\f5c4cac9-3f27-496a-a0b8-78e1f00dcf25_led.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f5e86bd9-7a64-4f0f-9af2-d1c2b139a4de_speaker.png",
+      "PackagePath": "staticwebassets\\uploads\\f5e86bd9-7a64-4f0f-9af2-d1c2b139a4de_speaker.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f66647cd-778e-4358-9edb-ff67e287e7d4_led.png",
+      "PackagePath": "staticwebassets\\uploads\\f66647cd-778e-4358-9edb-ff67e287e7d4_led.png"
+    },
+    {
+      "Id": "C:\\Users\\Anusha Yadav\\CSharp_Assignments\\E-Commerce_WebApplication\\E-Commerce_WebApplication\\wwwroot\\uploads\\f9f193f7-b413-4061-8770-ff69124eeee3_BoatWave.png",
+      "PackagePath": "staticwebassets\\uploads\\f9f193f7-b413-4061-8770-ff69124eeee3_BoatWave.png"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.E-Commerce_WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.E-Commerce_WebApplication.props",
+      "PackagePath": "build\\E-Commerce_WebApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.E-Commerce_WebApplication.props",
+      "PackagePath": "buildMultiTargeting\\E-Commerce_WebApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.E-Commerce_WebApplication.props",
+      "PackagePath": "buildTransitive\\E-Commerce_WebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

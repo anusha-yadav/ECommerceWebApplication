@@ -1,0 +1,156 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!-- Cart/Index.cshtml -->
+@model E_Commerce_WebApplication.Models.Cart
+
+<html>
+<header>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+@* <script src="~/dest/js/minified/bundle.min.js"></script>
+ *@</header>
+<body>
+<div class="container">
+    <h1>Shopping Cart</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CartItems)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.Products.ImageUrl" alt="Product Image" width="50" height="50">
+                        <div>
+                            @item.Products.ProductName
+                        </div>
+                    </td>
+                    <td>
+                       @* <input type="hidden" id="cartId" data-cartid="@Model.CartId" />
+                        <input type="hidden" id="productId" data-productid="@item.ProductsId" />*@
+
+                        <div class="form-group">
+                             <input type="number" class="quantity-input" min="1" value="@item.Quantity" data-cartid="@Model.CartId" data-productid="@item.ProductsId" style="width:100px;height:20px;">
+                        </div>
+                    </td>
+                    <td>&#x20b9; @item.Products.Price</td>
+                    <td class="subtotal">&#x20b9; @(item.Quantity * item.Products.Price)</td>
+                    <td>
+                        <a asp-action="RemoveCartItem" asp-route-cartItemId="@item.CartItemId" data-item-id ="@item.CartItemId" class="btn btn-danger btn-sm">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Total:   </strong></td>
+                <td><span id="total-price" >&#x20b9; @Model.CartItems.Sum(item=>item.Quantity*item.Products.Price)</span></</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="modal fade" id="quantityChangeModal" tabindex="-1" role="dialog" aria-labelledby="quantityChangeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quantityChangeModalLabel">Quantity Changed</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Message to show the updated quantity -->
+                    <p id="quantityChangeMessage"></p>
+                </div>
+                <div class="modal-footer">
+                    <!-- Add an "OK" button here -->
+                    <button type="button" class="btn btn-primary" id="okButton">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a asp-action="Checkout" asp-controller="Checkout" class="btn btn-success">Proceed to Checkout</a>
+    </div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Handle quantity input changes
+        $('.quantity-input').on('input', function () {
+            var quantity = parseInt($(this).val());
+            var cartId = $(this).data('cartid');
+            var productId = $(this).data('productid');
+            var price = parseFloat($(this).closest('tr').find('td:eq(2)').text().replace('₹', ''));
+            var subtotal = quantity * price;
+            $(this).closest('tr').find('.subtotal').text('₹' + subtotal.toFixed(2));
+            recalculateTotal();
+
+            // Show the confirmation message in the modal
+            var productName = $(this).closest('tr').find('td:eq(0)').text();
+            $('#quantityChangeMessage').text(productName + ' quantity changed to ' + quantity);
+            $('#quantityChangeModal').modal('show');
+            $('#okButton').data('updated-quantity', quantity);
+            $('#okButton').data('cartid', cartId); // Add this line to set cartId
+            $('#okButton').data('productid', productId);
+            console.log(updatedQuantity);
+            console.log(cartId);
+            console.log(productId);
+        });
+
+        // Function to recalculate the total price
+        function recalculateTotal() {
+            var total = 0;
+            $('.subtotal').each(function () {
+                var subtotal = parseFloat($(this).text().replace('₹', ''));
+                total += isNaN(subtotal) ? 0 : subtotal;
+            });
+            // Update the total price display
+            $('#total-price').text('₹' + total.toFixed(2));
+        }
+
+        $('#okButton').on('click', function () {
+            var updatedQuantity = $(this).data('updated-quantity');
+            var cartId = $(this).data('cartid'); 
+            var productId = $(this).data('productid');
+            console.log(updatedQuantity)
+            console.log(cartId)
+            console.log(productId)
+
+            // Send an AJAX request to update the quantity in CartController
+            $.ajax({
+                type: 'GET',
+                url: '/Cart/UpdateCartItem', // Update the URL as needed
+                data: { cartId: cartId,
+                    quantity: updatedQuantity,
+                    productid : productId
+                },
+                headers: {
+                    "Accept": "application/json"
+                },
+                success: function (response) {
+                    // Handle the response if needed
+                }
+            });
+
+            // Close the modal
+            $('#quantityChangeModal').modal('hide');
+        });
+    });
+</script> 
+</html>
+
+
+

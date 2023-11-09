@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CheckoutViewModel
+
+@using (Html.BeginForm("ProcessPayment", "Checkout", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Shipping Address</h3>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.Name)
+                    @Html.TextBoxFor(model => model.ShippingAddress.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.ShippingAddress)
+                    @Html.TextAreaFor(model => model.ShippingAddress.ShippingAddress, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.ShippingAddress, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.City)
+                    @Html.TextBoxFor(model => model.ShippingAddress.City, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.City, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.State)
+                    @Html.TextBoxFor(model => model.ShippingAddress.State, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.State, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.PostalCode)
+                    @Html.TextBoxFor(model => model.ShippingAddress.PostalCode, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.PostalCode, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.PhoneNumber)
+                    @Html.TextBoxFor(model => model.ShippingAddress.PhoneNumber, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.PhoneNumber, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.Email)
+                    @Html.TextBoxFor(model => model.ShippingAddress.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Cart Summary</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cartItem in Model.Cart.CartItems)
+                        {
+                            <tr>
+                                <td>@cartItem.Products.ProductName</td>
+                                <td>@cartItem.Quantity</td>
+                                <td>&#x20b9; @(cartItem.Products.Price * cartItem.Quantity)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div>
+                    <p><b>Total Price: &#x20b9; @Model.TotalPrice</b></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Submit Button -->
+                <div class="form-group text-center">
+                    <input type="submit" value="Place Order" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+

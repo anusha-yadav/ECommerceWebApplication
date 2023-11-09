@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model OrderGateway
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="IntiatePayment">
+
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Mobile">Mobile</label>
+                <input asp-for="Mobile" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TotalAmount">Total Amount</label>
+                <input asp-for="TotalAmount" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Continue To Pay" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+

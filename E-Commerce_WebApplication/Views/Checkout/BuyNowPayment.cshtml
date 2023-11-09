@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Payment
+
+
+<h2>Payment Information</h2>
+
+<style>
+    /* Styles for the modal */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.7); /* Black with opacity */
+    }
+
+    /* Modal content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Close button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+</style>
+
+<form asp-controller="Checkout" asp-action="BuyNowOrderConfirmation" method="post">
+    <div class="form-group">
+        <label for="SelectedPaymentMethod">Select Payment Method:</label>
+        <select class="form-control" id="SelectedPaymentMethod" name="SelectedPaymentMethod">
+            <option value="CreditCard">Credit Card</option>
+            <option value="UPI">UPI</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CardNumber">Card Number:</label>
+        <input type="text" class="form-control" id="CardNumber" name="CardNumber" />
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="ExpiryMonth">Expiry Month:</label>
+                <input type="text" class="form-control" id="ExpiryMonth" name="ExpiryMonth" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="ExpiryYear">Expiry Year:</label>
+                <input type="text" class="form-control" id="ExpiryYear" name="ExpiryYear" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="CVV">CVV:</label>
+        <input type="text" class="form-control" id="CVV" name="CVV" />
+    </div>
+
+    <div class="form-group">
+        <label for="UpiId">UPI ID:</label>
+        <input type="text" class="form-control" id="UpiId" name="UpiId" />
+    </div>
+
+    <button type="submit" class="btn btn-primary" id="confirmPaymentBtn">Confirm Payment</button>
+</form>
+
+
+<div id="paymentModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Payment Successful</h2>
+        <p>Your payment has been processed successfully.</p>
+    </div>
+</div>
+
+<script>
+    // Get the modal element
+    var modal = document.getElementById('paymentModal');
+
+    // Get the button that opens the modal
+    var confirmPaymentBtn = document.getElementById('confirmPaymentBtn');
+
+    // Get the <span> element that closes the modal
+    var closeBtn = document.getElementsByClassName('close')[0];
+
+    // Function to display the modal
+    function displayPaymentModal() {
+        modal.style.display = 'block';
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    // When the user clicks the button, display the modal
+    confirmPaymentBtn.onclick = displayPaymentModal;
+
+    // When the user clicks the close button, close the modal
+    closeBtn.onclick = closeModal;
+
+    // When the user clicks anywhere outside the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            closeModal();
+        }
+    };
+
+</script>
+
+
+
+
+
+

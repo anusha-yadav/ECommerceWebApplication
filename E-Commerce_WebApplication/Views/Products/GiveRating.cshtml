@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model RatingViewModel
+
+<h2>Rate @Model.ProductId</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("GiveRating", "Products", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label for="Value">Select Rating:</label>
+            <select class="form-control" name="Value">
+                <option value="1">1 star</option>
+                <option value="2">2 stars</option>
+                <option value="3">3 stars</option>
+                <option value="4">4 stars</option>
+                <option value="5">5 stars</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Rating</button>
+}

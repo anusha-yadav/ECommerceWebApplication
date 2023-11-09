@@ -1,0 +1,221 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = E_Commerce_WebApplication
+build_property.RootNamespace = E_Commerce_WebApplication
+build_property.ProjectDir = C:\Users\Anusha Yadav\CSharp_Assignments\E-Commerce_WebApplication\E-Commerce_WebApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Anusha Yadav\CSharp_Assignments\E-Commerce_WebApplication\E-Commerce_WebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Admin/GetAllUserInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0QWxsVXNlckluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Cart/BuyNow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxCdXlOb3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Cart/EmptyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxFbXB0eUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/BuyNowCheckout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQnV5Tm93Q2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/BuyNowOrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQnV5Tm93T3JkZXJDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/BuyNowPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQnV5Tm93UGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/PaymentConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcUGF5bWVudENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Checkout/PaymentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcUGF5bWVudERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Home/AllAppliancesProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxBcHBsaWFuY2VzUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Home/AllElectronicsProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxFbGVjdHJvbmljc1Byb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Payment/PaymentGateway.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50R2F0ZXdheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/GiveRating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcR2l2ZVJhdGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Products/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/Components/ProductSearch/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdFNlYXJjaFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_OrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlclN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_SubCategoryDropdown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJDYXRlZ29yeURyb3Bkb3duLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/SubCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/SubCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/SubCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/SubCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/SubCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anusha Yadav/CSharp_Assignments/E-Commerce_WebApplication/E-Commerce_WebApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wjowwmdlei

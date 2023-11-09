@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model OrderGateway
+
+<head runat="server">
+    <form action="/Payment/ProcessPayment" method="post" name="razorpayform">
+    </form>
+</head>
+<body>
+<button id="rzp-button1">Pay</button>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var orderId = "@ViewBag.orderid"
+    var options = {
+        "currency": "INR",
+        "name": "@Html.DisplayFor(model=>model.Name)",
+        "image": "https://example.com/your_logo",
+        "order_id": "@ViewBag.orderid", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+        "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+        "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+            "name": "@Html.DisplayFor(model=>model.Name)", //your customer's name
+                "email": "@Html.DisplayFor(model=>model.Email)",
+                "contact": "@Html.DisplayFor(model=>model.Mobile)" //Provide the customer's phone number for better conversion rates
+        },
+        "notes": {
+            "address": "Razorpay Corporate Office"
+        },
+        "theme": {
+            "color": "#3399cc"
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    document.getElementById('rzp-button1').onclick = function (e) {
+        rzp1.open();
+        e.preventDefault();
+    }
+</script>
+</body>

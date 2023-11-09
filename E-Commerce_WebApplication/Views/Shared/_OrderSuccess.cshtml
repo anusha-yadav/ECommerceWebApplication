@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!-- _OrderSuccess.cshtml -->
+<div id="order-success-modal" class="modal">
+    <div class="modal-content">
+        <h3>Your order has been successfully processed</h3>
+        <p>Thank you for your purchase.</p>
+        <button class="btn btn-primary" id="close-success-modal">Close</button>
+    </div>
+</div>
+
+
+<!-- Include jQuery (if not already included) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- JavaScript code to display the order success pop-up -->
+<script>
+    $(document).ready(function () {
+        // Show the order success modal when the page loads
+        $('#order-success-modal').modal('show');
+
+        // Optionally, add code to handle user interactions (e.g., close the modal)
+        // For example, if you have a "Close" button in the modal:
+        $('#order-success-modal .close-button').click(function () {
+            $('#order-success-modal').modal('hide');
+            // Redirect or perform other actions as needed
+        });
+    });
+</script>
+

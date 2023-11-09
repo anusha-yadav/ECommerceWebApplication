@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model CheckoutViewModel
+
+@using (Html.BeginForm("ProcessPayment", "Checkout", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Select Payment Method:")
+        @Html.DropDownListFor(model => model.IsCODSelected, new List<SelectListItem>
+        {
+            new SelectListItem { Text = "Credit Card", Value = "false" },
+            new SelectListItem { Text = "UPI", Value = "false" },
+            new SelectListItem { Text = "Cash on Delivery (COD)", Value = "true" }
+        }, new { @class = "form-control" })
+    </div>
+
+    <!-- Credit Card Fields -->
+    <div id="credit-card-fields" class="form-group">
+        @Html.LabelFor(model => model.CardNumber)
+        @Html.TextBoxFor(model => model.CardNumber, new { @class = "form-control" })
+        
+        <!-- Include other credit card fields (expiry date, CVV) here -->
+    </div>
+
+    <div id="credit-card-fields" class="form-group">
+        @Html.LabelFor(model => model.ExpirationDate)
+        @Html.TextBoxFor(model => model.ExpirationDate, new { @class = "form-control" })
+
+        <!-- Include other credit card fields (expiry date, CVV) here -->
+    </div>
+
+    <div id="credit-card-fields" class="form-group">
+        @Html.LabelFor(model => model.CVV)
+        @Html.TextBoxFor(model => model.CVV, new { @class = "form-control" })
+
+        <!-- Include other credit card fields (expiry date, CVV) here -->
+    </div>
+
+    <!-- UPI Field -->
+    <div id="upi-field" class="form-group">
+        @Html.LabelFor(model => model.UPIID)
+        @Html.TextBoxFor(model => model.UPIID, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Submit Payment" class="btn btn-primary" />
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $("#IsCODSelected").change(function () {
+            var isCODSelected = $(this).val() === "True";
+            $("#credit-card-fields").toggle(!isCODSelected);
+            $("#upi-field").toggle(!isCODSelected);
+        });
+    });
+</script>
+

@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Order
+
+<p>Your Order is been placed through COD</p>
+
+<h3>Order Details</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Order Date</th>
+            <th>Shipping Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.OrderId</td>
+            <td>@Model.OrderDate</td>
+            <td>@Model.ShippingAddress.Name
+                <br />
+                @Model.ShippingAddress.ShippingAddress
+                <br />
+                @Model.ShippingAddress.City
+                <br />
+                @Model.ShippingAddress.State
+        </tr>
+    </tbody>
+</table>
+
+<h3>Order Items</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>@item.Product.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>&#x20b9; @((int)item.Quantity * (decimal)item.Product.Price)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include any necessary CSS and JavaScript files for your modal here -->
+</head>
+<body>
+    <!-- Button to trigger the modal -->
+    <div style="justify-content:center">
+    <button type="button" class="btn btn-outline-success" style="background-color:aquamarine" data-toggle="modal" data-target="#orderSuccessModal">
+        Confirm Order
+    </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="orderSuccessModal" tabindex="-1" role="dialog" aria-labelledby="orderSuccessModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderSuccessModalLabel">Order Placed Successfully</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Your order has been placed successfully. Thank you for shopping with us!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" style="background-color:dodgerblue;"data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('#orderSuccessModal').modal('show');
+    // Trigger the modal
+    $('#orderSuccessModal').modal('show');
+
+    // Close the modal after 5 seconds (5000 milliseconds)
+    setTimeout(function () {
+        $('#orderSuccessModal').modal('hide');
+
+        // Redirect the user to the thank-you page
+        window.location.href = '/ThankYou';
+    }, 5000); // Adjust the delay as needed
+</script>
+</html>
+
+

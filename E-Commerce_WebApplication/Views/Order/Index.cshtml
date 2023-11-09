@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Order>
+
+<h2>My Orders</h2>
+
+<div class="container">
+    @foreach (var order in Model.OrderByDescending(o => o.OrderDate))
+    {
+        <div class="order">
+            <h3>Order ID: @order.OrderId</h3>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in order.OrderItems)
+                    {
+                        <tr>
+                            <td>@item.Product.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>&#x20b9; @(item.Product.Price * item.Quantity)</td>
+                            <td>
+                                @if (!item.HasRated)
+                                {
+                                    <a href="@Url.Action("GiveRating", "Products", new { productId = item.Product.Id })">Give Rating</a>
+                                }
+                                else
+                                {
+                                    <span>You've already rated this product</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><strong>Total: &#x20b9; @order.OrderItems.Sum(item => item.Product.Price * item.Quantity)</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    }
+</div>
+
+

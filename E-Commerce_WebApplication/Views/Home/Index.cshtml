@@ -1,0 +1,249 @@
+﻿@model HomePageViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<style>
+.navbar {
+  background-color: antiquewhite;
+}
+
+.navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+
+.navbar li {
+        float: left;
+}
+
+.navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:darkgray;
+    color: black;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link dropdown" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        Grocery
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-laptop"></i>
+                        Electronics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="list-unstyled">
+                            <li><a class="dropdown-item" href="#">Smart Phones</a></li>
+                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                            <li><a class="dropdown-item" href="#">Watches</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                        <i class="fas fa-tshirt"></i>
+                        Fashion
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                        <i class="fas fa-plane"></i>
+                        Travel
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                        <i class="fas fa-cubes"></i>
+                        Toys
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                        <i class="fas fa-home"></i>
+                        Home & Appliances
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="list-unstyled">
+                            <li><a class="dropdown-item" href="#">Furniture</a></li>
+                            <li><a class="dropdown-item" href="#">Electricals & Lightings</a></li>
+                            <li><a class="dropdown-item" href="#">Smart Locks</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slide active">
+            <img src="~/images/slider1.png" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="~/images/slider2.png" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="~/images/slider3.png" alt="Slide 3">
+        </div>
+    </div>
+    <!-- Featured Electronics Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h4 class="section-title">Best of Electronics</h4>
+             <div class="col-md-12 text-right" style="float:right;">
+                    <a href="@Url.Action("AllElectronicsProducts", "Home")">View All Electronics Products</a>
+             </div>
+            <div class="row">
+                @foreach (var item in Model.ElectronicsProducts)
+                {
+                    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom: 8px">
+                        <div class="thumbnail product-item" style="height: 400px; padding: 15px;">
+                            <div class="image" style="height: 250px; overflow: hidden;">
+                                <a href="@Url.Action("ProductDetail", "Products", new { id = @item.Id })">
+                                    <img class="img-responsive"
+                                         title="Click to View Product detail"
+                                         style="cursor: pointer; max-width: 100%; max-height: 100%; width: auto; height: auto;"
+                                         src="@Html.DisplayFor(modelItem => item.ImageUrl)"
+                                         alt="Image" />
+                                </a>
+                            </div>
+                            <div class="Samsung S23">
+                                <h5>@item.ProductName</h5>
+                                <p>&#x20b9; @item.Price</p>
+                                <p>Available</p>
+                                <div class="product-item-badge">New</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            </div>
+            <br />
+            <div class="container">
+            <h4 class="section-title">Best of Home Appliances</h4>
+            <div class="col-md-12 text-right" style="float:right;">
+                <a href="@Url.Action("AllAppliancesProducts", "Home")">View All Home Appliances Products</a>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.AppliancesProducts)
+                {
+                    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom: 8px">
+                        <div class="thumbnail product-item" style="height: 400px; padding: 15px;">
+                            <div class="image" style="height: 250px; overflow: hidden;">
+                                <a href="@Url.Action("ProductDetail", "Products", new { id = @item.Id })">
+                                    <img class="img-responsive"
+                                         title="Click to View Product detail"
+                                         style="cursor: pointer; max-width: 100%; max-height: 100%; width: auto; height: auto;"
+                                         src="@Html.DisplayFor(modelItem => item.ImageUrl)"
+                                         alt="Image" />
+                                </a>
+                            </div>
+                            <div class="Samsung S23">
+                                <h5>@item.ProductName</h5>
+                                <p>&#x20b9; @item.Price</p>
+                                <p>Available</p>
+                                <div class="product-item-badge">New</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <br />
+    <br />
+    <footer style="background-color: #333; color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6" style="background-color: #444; padding: 15px;">
+                    <h4>About Us</h4>
+                    <p>
+                        At ShopEase, we believe that technology should be both powerful and user-friendly.
+                        Our team of passionate engineers and designers work tirelessly to create products that
+                        seamlessly integrate into your daily routines. Whether it's our award-winning smartphones,
+                        state-of-the-art home appliances,
+                        or immersive entertainment systems, you can trust us to deliver quality and reliability.</p>
+                </div>
+                <div class="col-lg-3 col-md-6" style="background-color: #555; padding: 15px;">
+                    <h4>Customer Service</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6" style="background-color: #666; padding: 15px;">
+                    <h4>Shop</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6" style="background-color: #777; padding: 15px;">
+                    <h4>Connect with Us</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+@* <script>
+    // JavaScript to handle horizontal scrolling
+    var imageRow = document.querySelector('.row');
+
+    // Add swipe functionality
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    imageRow.addEventListener('touchstart', (e) => {
+        isDown = true;
+        startX = e.touches[0].pageX - imageRow.offsetLeft;
+        scrollLeft = imageRow.scrollLeft;
+    });
+
+    imageRow.addEventListener('touchend', () => {
+        isDown = false;
+    });
+
+    imageRow.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        const x = e.touches[0].pageX - imageRow.offsetLeft;
+        const walk = (x - startX) * 2; // Adjust scrolling speed
+        imageRow.scrollLeft = scrollLeft - walk;
+    });
+</script> *@
+
+
+</html>

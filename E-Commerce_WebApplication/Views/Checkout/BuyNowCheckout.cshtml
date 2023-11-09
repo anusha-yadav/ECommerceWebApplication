@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model BuyNowCheckoutViewModel
+
+@using (Html.BeginForm("BuyNowPayment", "Checkout", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Shipping Address</h3>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.Name)
+                    @Html.TextBoxFor(model => model.ShippingAddress.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.ShippingAddress)
+                    @Html.TextAreaFor(model => model.ShippingAddress.ShippingAddress, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.ShippingAddress, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.City)
+                    @Html.TextBoxFor(model => model.ShippingAddress.City, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.City, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.State)
+                    @Html.TextBoxFor(model => model.ShippingAddress.State, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.State, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.PostalCode)
+                    @Html.TextBoxFor(model => model.ShippingAddress.PostalCode, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.PostalCode, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.PhoneNumber)
+                    @Html.TextBoxFor(model => model.ShippingAddress.PhoneNumber, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.PhoneNumber, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShippingAddress.Email)
+                    @Html.TextBoxFor(model => model.ShippingAddress.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShippingAddress.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="buy-now-summary">
+                    <h3>Buy Now Item Summary</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Model.BuyNowItem.Product.ProductName</td>
+                                <td>$@Model.BuyNowItem.Product.Price</td>
+                                <td>@Model.BuyNowItem.Quantity</td>
+                                <td>&#x20b9; @(Model.BuyNowItem.Product.Price * Model.BuyNowItem.Quantity)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="total">
+                    <h3>Total: &#x20b9; @(Model.BuyNowItem.Product.Price * Model.BuyNowItem.Quantity)</h3>
+                </div>
+
+                <div class="checkout-button">
+                    <form method="post" action="@Url.Action("PlaceOrder", "Checkout")">
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(model => model.BuyNowItem.ProductID)
+                        @Html.HiddenFor(model => model.BuyNowItem.Quantity)
+                        <button type="submit" class="btn btn-primary">Place Order</button>
+                    </form>
+                </div>
+            </div>
+          </div>
+       </div>
+
+}

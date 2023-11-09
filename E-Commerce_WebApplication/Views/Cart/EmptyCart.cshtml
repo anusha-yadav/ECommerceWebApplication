@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+<header>
+    <script src="~/js/bundle.min.js"></script>
+    <link rel="stylesheet" href ="~/css/bundle.min.css" />
+</header> 
+<div id="emptyCartModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Your cart is empty.</p>
+    </div>
+</div>
+</html>
+<script>
+    // Function to check if the cart is empty
+    function isCartEmpty() {
+        // Replace this with your logic to check if the cart is empty
+        return true; // Return true if the cart is empty, false otherwise
+    }
+
+    // Show the empty cart modal when the page loads if the cart is empty
+    window.onload = function () {
+        if (isCartEmpty()) {
+            var modal = document.getElementById('emptyCartModal');
+            modal.style.display = 'block';
+        }
+    }
+
+    // Close the modal when the close button is clicked
+    var closeBtn = document.getElementsByClassName('close')[0];
+    closeBtn.onclick = function () {
+        var modal = document.getElementById('emptyCartModal');
+        modal.style.display = 'none';
+    }
+
+    // Example: Trigger the modal when the user clicks a "Checkout" button
+    document.getElementById('checkoutButton').addEventListener('click', function () {
+        if (isCartEmpty()) {
+            var modal = document.getElementById('emptyCartModal');
+            modal.style.display = 'block';
+        } else {
+            // Proceed with the checkout process
+        }
+    });
+
+</script>  
+

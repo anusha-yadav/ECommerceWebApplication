@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Products>
+
+<div class="container">
+    <h4 class="section-title">Electronics</h4>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom: 8px">
+                <div class="thumbnail product-item" style="height: 400px; padding: 15px;">
+                    <div class="image" style="height: 250px; overflow: hidden;">
+                        <a href="@Url.Action("ProductDetail", "Products", new { id = @item.Id })">
+                            <img class="img-responsive"
+                                 title="Click to View Product detail"
+                                 style="cursor: pointer; max-width: 100%; max-height: 100%; width: auto; height: auto;"
+                                 src="@Html.DisplayFor(modelItem => item.ImageUrl)"
+                                 alt="Image" />
+                        </a>
+                    </div>
+                    <div class="Samsung S23">
+                        <h5>@item.ProductName</h5>
+                        <p>&#x20b9; @item.Price</p>
+                        <p>Available</p>
+                        <div class="product-item-badge">New</div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
